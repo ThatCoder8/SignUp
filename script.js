@@ -227,7 +227,7 @@ function addToCart(recipe, accessToken) {
 // Function to search recipes
 function searchRecipes() {
   const ingredientsInput = document.getElementById('ingredients');
-  ingredientsInput.placeholder = 'e.g., steak, mushrooms...';
+  ingredientsInput.placeholder = 'Search Cheflow...';
 
   const ingredients = ingredientsInput.value.trim();
 
